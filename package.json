@@ -12,7 +12,10 @@
     "nprogress": "^0.2.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "styled-components": "^5.1.1"
+    "react-hook-form": "^5.7.2",
+    "styled-components": "^5.1.1",
+    "swr": "^0.2.2",
+    "unfetch": "^4.1.0"
   },
   "//": "This is our babel config, I prefer this over a .babelrc file",
   "babel": {
