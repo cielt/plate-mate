@@ -1,8 +1,10 @@
 const mpTheme = {
   bgPage: '#FFF',
-  green: '#16E888',
+
   bodyTextColor: '#222',
   black: '#000',
+  oatmeal: '#ece9db',
+  yellow: '#FFCD00',
   grey: '#6D7278',
   lightGrey: '#CCC',
   white: '#FFF',

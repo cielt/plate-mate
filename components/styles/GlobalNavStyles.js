@@ -28,7 +28,7 @@ const GlobalNavStyles = styled.ul`
   }
 
   .global-nav-link.active {
-    border-color: ${(props) => props.theme.green};
+    border-color: ${(props) => props.theme.yellow};
   }
 `;
 

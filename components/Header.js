@@ -19,31 +19,32 @@ Router.onRouteChangeError = () => {
 
 const PageHeaderBar = styled.div`
   .logo-bar {
-    background: #fafafa;
+    background: ${(props) => props.theme.oatmeal};
     padding: 1rem;
   }
 `;
 
 const HomeLogo = styled.div`
-  font-size: 2rem;
+  font-size: 3.2rem;
   font-weight: bold;
-  color: ${(props) => props.theme.black};
 
   a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    color: ${(props) => props.theme.grey};
+    display: block;
+    text-align: center;
+    color: ${(props) => props.theme.black};
 
     .branding {
-      width: 60px;
-      height: 36px;
+      min-width: 120px;
+      height: 80px;
       color: ${(props) => props.theme.black};
-      background: url('/logo-plate-mate.svg') transparent no-repeat center
-        center;
-      background-size: contain;
+    }
+
+    .branding:after {
+      content: '🍽';
+      display: block;
+      font-size: 6rem;
+      line-height: normal;
+      text-align: center;
     }
   }
 `;
